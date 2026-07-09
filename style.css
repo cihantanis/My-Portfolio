@@ -1,0 +1,21 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    margin:40px;
+}
+
+h1{
+    color:#1e3a8a;
+}
+
+h2{
+    color:#444;
+}
+
+h3{
+    color:#0f766e;
+}
+
+ul{
+    list-style:square;
+}
