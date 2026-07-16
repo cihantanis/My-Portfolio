@@ -33,3 +33,7 @@ a:hover{
     border-radius:8px;
     display:inline-block;
 }
+img{
+    width:200px;
+    border-radius:50%;
+}
