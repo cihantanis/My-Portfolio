@@ -49,3 +49,18 @@ body{
     padding:30px;
     border-radius:10px;
 }
+nav{
+    margin-bottom:30px;
+}
+nav a{
+    margin:15px;
+    font-weight:bold;
+    color:#1e3a8a;
+}
+nav a:hover{
+    color:#0f766e;
+}
+
+html{
+    scroll-behavior:smooth;
+}
