@@ -49,6 +49,7 @@ body{
     background:white;
     padding:30px;
     border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,0,15);
 }
 nav{
     margin-bottom:30px;
@@ -98,4 +99,21 @@ li:hover{
 .button:hover{
     background:#0f766e;
     transform:translateY(-3px);
+    transition:0.3s;
+}
+footer{
+    margin-top:40px;
+    padding:20px;
+    background:#1e3a8a;
+    color:white;
+}
+.navbar a{
+    margin:15px;
+    font-weight:bold;
+}
+h1{
+    color:#1e3a8a;
+}
+h3{
+    color:#0f766e;
 }
