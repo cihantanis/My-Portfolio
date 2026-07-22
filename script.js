@@ -1,0 +1,1 @@
+alert('Hello! I`m Cihan. Welcome to my portfolio!');
