@@ -10,7 +10,7 @@ function toggleBackground(){
         document.body.style.backgroundColor='lightblue';
         isBlue=true;
     } else {
-        document.body.style.backgroundColor='white';
+        document.body.style.backgroundColor='red';
         isBlue=false;
     }
 }
