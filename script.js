@@ -4,3 +4,13 @@ function welcomeMessage() {
 function changeJobTitle() {
     document.getElementById('jobTitle').innerHTML ='Future Backend Developer'
 }
+let isBlue=false;
+function toggleBackground(){
+    if(isBlue==false){
+        document.body.style.backgroundColor='lightblue';
+        isBlue=true;
+    } else {
+        document.body.style.backgroundColor='white';
+        isBlue=false;
+    }
+}
