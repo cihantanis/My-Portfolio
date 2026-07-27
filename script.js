@@ -25,7 +25,7 @@ function toggleAbout(){
         document.getElementById('aboutText').style.display='none';
         aboutVisible=false;
     }else{
-        document.getElementById('aboutText')style.display='block';
+        document.getElementById('aboutText').style.display='block';
         aboutVisible=true
     }
 }
