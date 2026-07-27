@@ -19,3 +19,13 @@ function changeName(){
     document.getElementById('myName').innerHTML=
     'Hello'+userName+'!';
 }
+let aboutVisible=true;
+function toggleAbout(){
+    if(aboutVisible){
+        document.getElementById('aboutText').style.display='none';
+        aboutVisible=false;
+    }else{
+        document.getElementById('aboutText')style.display='block';
+        aboutVisible=true
+    }
+}
