@@ -29,3 +29,15 @@ function toggleAbout(){
         aboutVisible=true;
     }
 }
+let darkMode=false;
+function toggleDarkMode(){
+    if(darkMode==false){
+        document.body.style.backgroundColor='#222';
+        document.body.style.color='white';
+        darkMode=true;
+    }else{
+        document.body.style.backgroundColor='white';
+        document.body.style.color='black';
+        darkMode=false;
+    }
+}
