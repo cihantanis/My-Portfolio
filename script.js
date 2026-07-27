@@ -26,6 +26,6 @@ function toggleAbout(){
         aboutVisible=false;
     }else{
         document.getElementById('aboutText').style.display='block';
-        aboutVisible=true
+        aboutVisible=true;
     }
 }
