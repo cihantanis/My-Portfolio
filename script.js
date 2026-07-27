@@ -41,3 +41,14 @@ function toggleDarkMode(){
         darkMode=false;
     }
 }
+function changeQuote(){
+let quotes=[
+    'Never give up!',
+    'Practice every day.',
+    'Dream big.',
+    'Backend is my future.',
+    'Success takes time.'
+];
+let randomNumber=Math.floor(Math.random()*quotes.length);
+document.getElementById('quote').innerHTML=quotes[randomNumber];
+}
