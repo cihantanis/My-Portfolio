@@ -57,3 +57,10 @@ let today=new Date();
 document.getElementById('time').innerHTML=
 today;
 }
+let visitor=0;
+function countVisitor(){
+    visitors++;
+    document.getElementById('visitorCount').innerHTML=
+    'Visitor:'+visitors;
+}
+countVisitor();
