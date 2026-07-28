@@ -52,3 +52,8 @@ let quotes=[
 let randomNumber=Math.floor(Math.random()*quotes.length);
 document.getElementById('quote').innerHTML=quotes[randomNumber];
 }
+function showTime(){
+let today=new Date();
+document.getElementById('time').innerHTML=
+today;
+}
