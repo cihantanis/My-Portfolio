@@ -57,6 +57,7 @@ let today=new Date();
 document.getElementById('time').innerHTML=
 today;
 }
+console.log(document.getElementById('visitorCount'));
 let visitor=0;
 function countVisitor(){
     visitor++;
