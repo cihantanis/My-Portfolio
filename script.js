@@ -64,4 +64,6 @@ function countVisitor(){
     document.getElementById('visitorCount').innerHTML=
     'Visitor:'+visitor;
 }
-countVisitor();
+window.onload = function () {
+    countVisitor();
+};
