@@ -117,3 +117,31 @@ h1{
 h3{
     color:#0f766e;
 }
+.bar{
+    width:100%;
+    background:#ddd;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.bar div{
+    color:white;
+    padding:10px;
+    border-radius:10px,
+    text-align:right;
+}
+.html{
+    width:90%;
+    background:#4CAF50;
+}
+.css{
+    width:80%;
+    background:#2196F3;
+}
+.git{
+    width:70%;
+    background:#FF9800;
+}
+.github{
+    width:70%;
+    background:#9C27B0;
+}
