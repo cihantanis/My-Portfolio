@@ -67,3 +67,9 @@ function countVisitor(){
 window.onload = function () {
     countVisitor();
 };
+function goToTop(){
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    });
+}
