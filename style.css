@@ -171,3 +171,20 @@ h3{
 .button:hover{
     background:#0056b3;
 }
+.project-card{
+    background:white;
+    margin:25px 0;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.project-card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+.project-card h4{
+    color:#1e3a8a;
+}
+.project-card p{
+    margin:10px 0;
+}
