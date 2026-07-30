@@ -126,8 +126,8 @@ h3{
 .bar div{
     color:white;
     padding:10px;
-    border-radius:10px,
-    text-align:right;
+    border-radius:10px;
+    text-align : right;
 }
 .html{
     width:90%;
@@ -152,10 +152,22 @@ h3{
     padding:10px 15px;
     border:none;
     border-radius:10px;
-    backgorund-color:#007BFF;
+    background-color:#007BFF;
     color:white;
     cursor:pointer;
 }
 #topButton:hover{
-    backgorund-color:#0056b3;
+    background-color:#0056b3;
+}
+.button{
+    display:inline-block;
+    padding:10px 20px;
+    background:#007BFF;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:10px;
+}
+.button:hover{
+    background:#0056b3;
 }
