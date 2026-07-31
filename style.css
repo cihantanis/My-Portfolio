@@ -213,3 +213,34 @@ h3{
        padding:20px;
     }
 }
+.contact-form{
+    width:80%;
+    margin:40px auto;
+    text-align:left;
+}
+.contact-form label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+.contact-form button{
+    margin-top:20px;
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+.contact-form button:hover{
+    background:#0f766e;
+}
