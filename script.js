@@ -77,16 +77,10 @@ function validateform(){
     let name=document.getElementById('name').value;
     let email=document.getElementById('email').value;
     let message=document.getElementById('message').value;
-    if(name === ''){
-        alert('Please enter your name.');
-    }
-    if(email === ''){
-        alert('Please enter your email.');
-    }
-    if(message === ''){
-        alert('Please enter your message.');
-    }
-    if(name !== '' && email !== '' && message !== ''){
-        alert('Message sent succesfully!');
+    let formMessage=document.getElementById('formMessage');
+    if (name === ''|| email === ''|| message === ''){
+        formMessage.innerHTML='Please fill in all fields.';
+    } else{
+        formMessage.innerHTML='Message sent successfully!';
     }
 }

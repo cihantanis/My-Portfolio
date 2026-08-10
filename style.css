@@ -244,3 +244,7 @@ h3{
 .contact-form button:hover{
     background:#0f766e;
 }
+#formMessage{
+    margin-top:15px;
+    font-weight:bold;
+}
