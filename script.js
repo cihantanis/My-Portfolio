@@ -76,11 +76,16 @@ function goToTop(){
 function validateform(){
     let name=document.getElementById('name').value;
     let email=document.getElementById('email').value;
+    let emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     let message=document.getElementById('message').value;
     let formMessage=document.getElementById('formMessage');
     if (name === ''|| email === ''|| message === ''){
         formMessage.innerHTML='Please fill in all fields.';
-    } else{
+    } 
+    else if(!emailPattern.test(email)){
+        formMessage.innerHTML='Please enter a valid email address.';
+    }
+    else{
         formMessage.innerHTML='Message sent successfully!';
     }
 }
