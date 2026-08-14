@@ -81,11 +81,14 @@ function validateform(){
     let formMessage=document.getElementById('formMessage');
     if (name === ''|| email === ''|| message === ''){
         formMessage.innerHTML='Please fill in all fields.';
+        formMessage.style.color='red';
     } 
     else if(!emailPattern.test(email)){
         formMessage.innerHTML='Please enter a valid email address.';
+        formMessage.style.color='red';
     }
     else{
         formMessage.innerHTML='Message sent successfully!';
+        formMessage.style.color='green';
     }
 }
