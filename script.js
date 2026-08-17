@@ -90,5 +90,8 @@ function validateform(){
     else{
         formMessage.innerHTML='Message sent successfully!';
         formMessage.style.color='green';
+        document.getElementById('name').value='';
+        document.getElementById('email').value='';
+        document.getElementById('message').value='';
     }
 }
