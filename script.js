@@ -73,7 +73,7 @@ function goToTop(){
         behavior:'smooth'
     });
 }
-function validateform(){
+function validateForm(){
     let name=document.getElementById('name').value;
     let email=document.getElementById('email').value;
     let emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
