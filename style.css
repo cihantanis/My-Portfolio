@@ -248,3 +248,24 @@ h3{
     margin-top:15px;
     font-weight:bold;
 }
+@media(max-width: 768px){
+    .navbar{
+        padding:10px;
+    }
+    .navbar a{
+        margin:5px;
+        font-size:14px;
+    }
+    img{
+        max-width:150px;
+        height:auto;
+    }
+    .project-card{
+        width:90%;
+        margin:20px auto;
+    }
+    .contact-form{
+        width:90%;
+        margin:auto;
+    }
+}
